@@ -1,3 +1,4 @@
+--Question 1
 -- Achieving 1NF (First Normal Form)
 -- Transforming ProductDetail table to ensure atomicity
 
@@ -17,7 +18,7 @@ INSERT INTO ProductDetail_1NF (OrderID, CustomerName, Product) VALUES
 (102, 'Jane Smith', 'Mouse'),
 (103, 'Emily Clark', 'Phone');
 
-
+--Question 2
 -- Achieving 2NF (Second Normal Form)
 -- Splitting OrderDetails table to remove partial dependencies
 
